@@ -1,0 +1,107 @@
+{
+  "../../../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-Bu_38WRG.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_index-DCiertCK.js": {
+    "file": "assets/index-DCiertCK.js",
+    "name": "index"
+  },
+  "_regex-DYVZPOTG.js": {
+    "file": "assets/regex-DYVZPOTG.js",
+    "name": "regex",
+    "imports": [
+      "_index-DCiertCK.js"
+    ]
+  },
+  "contentScript.ts-loader.js": {
+    "file": "assets/contentScript.ts-loader-CErrJH06.js",
+    "src": "contentScript.ts-loader.js"
+  },
+  "index.html": {
+    "file": "assets/index.html-B9I9kPdQ.js",
+    "name": "index.html",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_regex-DYVZPOTG.js",
+      "_index-DCiertCK.js"
+    ],
+    "css": [
+      "assets/index-ChHWyAEo.css"
+    ],
+    "assets": [
+      "assets/img-error-DaT7nHY4.png",
+      "assets/customBelt-B-ftw2if.png",
+      "assets/unknownNFT-C49J5vyN.png",
+      "assets/unreadableNFT-CYgyYYBw.png",
+      "assets/aptos-C0-u6Bcb.png",
+      "assets/MOVE-CB87EuhO.png",
+      "assets/USDC-BrN81Eiz.png",
+      "assets/USDT-D2nt4ZWK.png",
+      "assets/GMOVE-Bs1FtOyu.png",
+      "assets/MOVERS-NNL2lNoR.png"
+    ]
+  },
+  "src/assets/etc/aptos.png": {
+    "file": "assets/aptos-C0-u6Bcb.png",
+    "src": "src/assets/etc/aptos.png"
+  },
+  "src/assets/etc/customBelt.png": {
+    "file": "assets/customBelt-B-ftw2if.png",
+    "src": "src/assets/etc/customBelt.png"
+  },
+  "src/assets/etc/unknownNFT.png": {
+    "file": "assets/unknownNFT-C49J5vyN.png",
+    "src": "src/assets/etc/unknownNFT.png"
+  },
+  "src/assets/etc/unreadableNFT.png": {
+    "file": "assets/unreadableNFT-CYgyYYBw.png",
+    "src": "src/assets/etc/unreadableNFT.png"
+  },
+  "src/assets/icons/img-error.png": {
+    "file": "assets/img-error-DaT7nHY4.png",
+    "src": "src/assets/icons/img-error.png"
+  },
+  "src/assets/symbols/GMOVE.png": {
+    "file": "assets/GMOVE-Bs1FtOyu.png",
+    "src": "src/assets/symbols/GMOVE.png"
+  },
+  "src/assets/symbols/MOVE.png": {
+    "file": "assets/MOVE-CB87EuhO.png",
+    "src": "src/assets/symbols/MOVE.png"
+  },
+  "src/assets/symbols/MOVERS.png": {
+    "file": "assets/MOVERS-NNL2lNoR.png",
+    "src": "src/assets/symbols/MOVERS.png"
+  },
+  "src/assets/symbols/USDC.png": {
+    "file": "assets/USDC-BrN81Eiz.png",
+    "src": "src/assets/symbols/USDC.png"
+  },
+  "src/assets/symbols/USDT.png": {
+    "file": "assets/USDT-D2nt4ZWK.png",
+    "src": "src/assets/symbols/USDT.png"
+  },
+  "src/scripts/background/index.ts": {
+    "file": "assets/index.ts-a7wN-2HC.js",
+    "name": "index.ts",
+    "src": "src/scripts/background/index.ts",
+    "isEntry": true,
+    "imports": [
+      "_regex-DYVZPOTG.js",
+      "_index-DCiertCK.js"
+    ]
+  },
+  "src/scripts/contentScript.ts": {
+    "file": "assets/contentScript.ts-C4NJknMX.js",
+    "name": "contentScript.ts",
+    "src": "src/scripts/contentScript.ts",
+    "isEntry": true,
+    "imports": [
+      "_index-DCiertCK.js"
+    ]
+  }
+}
