@@ -1,6 +1,6 @@
 {
   "../../../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-Bu_38WRG.js",
+    "file": "assets/crx-manifest.js-DP7YSNPt.js",
     "name": "crx-manifest.js",
     "src": "../../../../../../@crx/manifest",
     "isEntry": true
@@ -9,8 +9,8 @@
     "file": "assets/index-DCiertCK.js",
     "name": "index"
   },
-  "_regex-D93TCDRj.js": {
-    "file": "assets/regex-D93TCDRj.js",
+  "_regex-DAvblRDr.js": {
+    "file": "assets/regex-DAvblRDr.js",
     "name": "regex",
     "imports": [
       "_index-DCiertCK.js"
@@ -21,12 +21,12 @@
     "src": "contentScript.ts-loader.js"
   },
   "index.html": {
-    "file": "assets/index.html-Cid1JrAW.js",
+    "file": "assets/index.html-D1PIyuU4.js",
     "name": "index.html",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_regex-D93TCDRj.js",
+      "_regex-DAvblRDr.js",
       "_index-DCiertCK.js"
     ],
     "css": [
@@ -86,12 +86,12 @@
     "src": "src/assets/symbols/USDT.png"
   },
   "src/scripts/background/index.ts": {
-    "file": "assets/index.ts-D-gkWXgV.js",
+    "file": "assets/index.ts-C7UeFkui.js",
     "name": "index.ts",
     "src": "src/scripts/background/index.ts",
     "isEntry": true,
     "imports": [
-      "_regex-D93TCDRj.js",
+      "_regex-DAvblRDr.js",
       "_index-DCiertCK.js"
     ]
   },
