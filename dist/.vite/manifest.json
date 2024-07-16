@@ -9,8 +9,8 @@
     "file": "assets/index-DCiertCK.js",
     "name": "index"
   },
-  "_regex-DYVZPOTG.js": {
-    "file": "assets/regex-DYVZPOTG.js",
+  "_regex-D93TCDRj.js": {
+    "file": "assets/regex-D93TCDRj.js",
     "name": "regex",
     "imports": [
       "_index-DCiertCK.js"
@@ -21,12 +21,12 @@
     "src": "contentScript.ts-loader.js"
   },
   "index.html": {
-    "file": "assets/index.html-B9I9kPdQ.js",
+    "file": "assets/index.html-Cid1JrAW.js",
     "name": "index.html",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_regex-DYVZPOTG.js",
+      "_regex-D93TCDRj.js",
       "_index-DCiertCK.js"
     ],
     "css": [
@@ -86,12 +86,12 @@
     "src": "src/assets/symbols/USDT.png"
   },
   "src/scripts/background/index.ts": {
-    "file": "assets/index.ts-a7wN-2HC.js",
+    "file": "assets/index.ts-D-gkWXgV.js",
     "name": "index.ts",
     "src": "src/scripts/background/index.ts",
     "isEntry": true,
     "imports": [
-      "_regex-DYVZPOTG.js",
+      "_regex-D93TCDRj.js",
       "_index-DCiertCK.js"
     ]
   },
